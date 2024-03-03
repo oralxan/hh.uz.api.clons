@@ -6,6 +6,10 @@ from django.conf import settings
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('api/', include('apps.employer.urls')),
+    path('api/', include('apps.employe.urls')),
+    path('api/',include('apps.vacancy.urls')),
+    path('api/dj-rest-auth/',include('dj_rest_auth.urls'))
 ]
 urlpatterns += static(
     settings.MEDIA_URL,

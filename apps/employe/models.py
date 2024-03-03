@@ -37,7 +37,7 @@ class Employee(Model):
     photo = OptimizedImageField(
         verbose_name = 'Employee photo',
         upload_to = 'employee-photos/%Y/%m/%d',
-        optimized_image_output_size=(50, 50),
+        optimized_image_output_size=(500, 500),
         optimized_image_resize_method='cover'
     )
     class Meta:

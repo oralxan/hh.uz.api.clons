@@ -1,6 +1,7 @@
 asgiref==3.7.2
 certifi==2024.2.2
 charset-normalizer==3.3.2
+dj-rest-auth==5.0.2
 Django==4.2.8
 django-cleanup==8.1.0
 django-image-optimizer==1.0.3
